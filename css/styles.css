@@ -65,3 +65,23 @@
 .bg-amarillo{
 	background-color: var(--amarillo);
 }
+
+
+.no-gutters .informacionDj{
+	padding: 3rem 2rem;
+}
+
+@media screen and (min-width: 768px){
+	.no-gutters .informacionDj{
+		padding: 1rem 4rem;
+	}
+}
+
+.informacionDj__header{
+	border-bottom: 5px solid var(--blanco);
+	padding-bottom: 1rem;
+}
+
+.bg-azul {
+  background-color: var(--azul);
+}

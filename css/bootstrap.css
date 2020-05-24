@@ -215,33 +215,6 @@ a.bg-success:hover {
   border-radius: 1rem;
 }
 
-.WorkFlow-steps sup {
-  font-size: 1rem;
-  color: var(--main-color);
-}
-
-.SinglePage,
-.MultiPage {
-  background-image: url('../img/site-singlepage.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.MultiPage {
-  background-image: url('../img/site-multipage.jpg');
-}
-
-.SinglePage > .u-fullScreen,
-.MultiPage > .u-fullScreen {
-  background-color: var(--bg-modal-color);
-}
-
-.AboutInfo {
-  padding: 1rem;
-  font-size: 150%;
-  background-color: var(--second-modal-color);
-}
-
 .Footer {
   background-color: var(--second-color);
 }

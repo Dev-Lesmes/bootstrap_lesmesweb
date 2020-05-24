@@ -1,0 +1,51 @@
+:root {
+	--azul:#252839;
+	--gris:#677077;
+	--grisClaro:#F3F3F3;
+	--amarillo:#f2b632;
+	--blanco:#fff;
+	--fontbody: 'Quattrocento', serif;
+	--fonttitulos: 'Oswald', sans-serif;
+}
+
+
+.redes-sociales{
+	flex-direction:row;
+	justify-content: flex-end;
+}
+
+.redes-sociales a{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.redes-sociales img{
+	transition:all .3s ease-in;
+}
+
+.redes-sociales img:hover{
+	-webkit-filter: saturate(8);
+  	filter: saturate(8);
+}
+
+.titulosSection{
+	color: var(--amarillo);
+	font-size: 3rem;
+}
+
+@media screen and (min-width: 768px){
+	.titulosSection{
+		font-size: 3rem;
+	}
+}
+
+.subtitulosSection{
+	font-family: var(--fonttitulos);
+	display: inline-block;
+	max-width: 560px;
+	font-size: 1.2rem;
+}
+
+.bg-amarillo{
+	background-color: var(--amarillo);
+}

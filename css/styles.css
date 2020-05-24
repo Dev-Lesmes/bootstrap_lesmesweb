@@ -4,7 +4,6 @@
 	--grisClaro:#F3F3F3;
 	--amarillo:#f2b632;
 	--blanco:#fff;
-	--fontbody: 'Quattrocento', serif;
   --fonttitulos: 'Oswald', sans-serif;
   --morado: rgb(94, 23, 235);
 }
@@ -49,12 +48,6 @@
   font-weight: bold;
 }
 
-@media screen and (min-width: 768px){
-	.titulosSection{
-		font-size: 3rem;
-	}
-}
-
 .subtitulosSection{
 	font-family: var(--fonttitulos);
 	display: inline-block;
@@ -71,12 +64,6 @@
 	padding: 3rem 2rem;
 }
 
-@media screen and (min-width: 768px){
-	.no-gutters .informacionDj{
-		padding: 1rem 4rem;
-	}
-}
-
 .informacionDj__header{
 	border-bottom: 5px solid var(--blanco);
 	padding-bottom: 1rem;
@@ -84,4 +71,40 @@
 
 .bg-azul {
   background-color: var(--azul);
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: none!important;
+  left: none!important;
+  z-index: 1030;
+}
+
+@media (min-width: 310px) {
+  .titulosh1 {
+    font-size: 2rem;
+}
+  .titulosSection {
+    color: var(--amarillo);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+  h2 { font-size: 2.0rem; }
+  .u-flowText { font-size: 1.0rem; }
+}
+
+
+@media screen and (min-width: 768px){
+	.titulosSection{
+		font-size: 3rem;
+  }
+  
+  .titulosh1 {
+    font-size: 3rem;
+}
+	.no-gutters .informacionDj{
+		padding: 1rem 4rem;
+	}
 }

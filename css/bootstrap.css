@@ -81,9 +81,8 @@ h3 { font-size: 2.5rem; }
 .bg-dark {
   background-color: var(--second-color) !important;
 }
-
 .navbar-brand img {
-  width: auto; 
+  width: auto;
   height: var(--logo-height);
   padding: var(--logo-spacing);
 }
@@ -102,34 +101,34 @@ h3 { font-size: 2.5rem; }
   transition: all .3s ease;
 }
 
-/* le damos color al momento de hacer click a la figura */
 .navbar-dark .navbar-toggler-icon:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(244, 196, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217, 0, 98, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .nav-item:hover {
-  background-color: var(--main-modal-color); /* morado */
+  background-color: var(--main-modal-color);
   transition: all .3s ease;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  display: block; 
-  color: var(--bg-color); /* amarillo */
+  display: block;
+  color: var(--main-color);
   font-size: 1.15rem;
   font-weight: bold;
   transition: all .3s ease;
-  padding: 0.2rem 1rem
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-  color:var(--amarillo);
-	border-bottom: 1px dashed var(--amarillo);
+.navbar-dark .navbar-nav .nav-link:hover { color: var(--bg-color); }
+
+.bg-success {
+  background-color: var(--action-color) !important;
 }
 
-
-.navbar-dark .navbar-nav .nav-link:hover { color: var(--main-color); } /* blanco */
-
+a.bg-success:hover {
+  background-color: var(--action-color) !important;
+  opacity: .85;
+  transition: all .3s ease
+}
 .bg-success {
   background-color: var(--action-color) !important;
 }
@@ -227,9 +226,14 @@ a.bg-success:hover {
 /* Iniciamos con un tamaño de letra */
 .u-flowText { font-size: 1.25rem; }
 
-@media (min-width: 320px) {
-  h2 { font-size: 2.5rem; }
+@media (min-width: 310px) {
+  h2 { font-size: 2.0rem; }
   .u-flowText { font-size: 1.0rem; }
+  .navbar-brand img {
+    width: auto;
+    padding: 0.7rem;
+  }
+
 }
 
 

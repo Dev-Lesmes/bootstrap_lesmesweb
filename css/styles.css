@@ -5,18 +5,26 @@
 	--amarillo:#f2b632;
 	--blanco:#fff;
 	--fontbody: 'Quattrocento', serif;
-	--fonttitulos: 'Oswald', sans-serif;
+  --fonttitulos: 'Oswald', sans-serif;
+  --morado: rgb(94, 23, 235);
 }
 
+.redes{
+  background-color: var(--amarillo);
+  border-radius: 2rem;
+ 
+}
 
 .redes-sociales{
 	flex-direction:row;
-	justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 0.5rem 0rem;
 }
 
 .redes-sociales a{
 	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+  padding-right: 0.5rem;
+  
 }
 
 .redes-sociales img{
@@ -24,13 +32,21 @@
 }
 
 .redes-sociales img:hover{
-	-webkit-filter: saturate(8);
-  	filter: saturate(8);
+	background-color:  var(--morado);
+
 }
+
+.titulosh1{
+	color: var(--blanco);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 
 .titulosSection{
 	color: var(--amarillo);
-	font-size: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px){
